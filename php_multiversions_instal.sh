@@ -65,3 +65,7 @@ sudo apt-get install php5.6-mysql php5.6-mbstring php5.6-xml php5.6-gd php5.6-cu
 #sudo update-alternatives --set php /usr/bin/php7.4
 #sudo update-alternatives --set php /usr/bin/php8.0
 #sudo update-alternatives --set php /usr/bin/php8.1
+
+nameserver 172.16.3.1
+nameserver 172.16.3.4
+nameserver 172.16.3.5
