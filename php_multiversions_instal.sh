@@ -40,12 +40,12 @@ echo "Install PHP 7.3:"
 sudo apt-get install php7.3 php7.3-fpm
 sudo apt-get install php7.3-mysql php7.3-mbstring php7.3-xml php7.3-gd php7.3-curl php7.3-phpdbg
 
-#Install PHP 7.2:
+#Install PHP 7.2: php7.2-<exension>
 
 echo "Install PHP 7.2:"
 
 sudo apt-get install php7.2 php7.2-fpm
-sudo apt-get install php7.2-mysql php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl php7.2-phpdbg
+sudo apt-get install php7.2-mysql php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl php7.2-phpdbg php7.2-php_pdo_sqlite php7.2-php_sqlite3
 
 #Install PHP 5.6:
 
