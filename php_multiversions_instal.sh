@@ -56,7 +56,7 @@ sudo apt-get install php7.2-mysql php7.2-mbstring php7.2-xml php7.2-gd php7.2-cu
 
 echo "Install PHP 7.0:"
 
-sudo apt-get install php7.4 php7.4-fpm php7.4-wddx php7.4-xmlreader php7.4-xmlwriter php7.4-xsl
+sudo apt-get install php7.4 php7.4-fpm php7.4-wddx php7.4-xmlreader php7.4-xmlwriter php7.4-xsl php7.4-intl  php7.4-soap
 sudo apt-get install php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl php7.4-phpdbg php7.4-sqlite php7.4-sqlite3
 sudo apt-get install php7.4-mysqlnd php7.4-opcache php7.4-pdo php7.4-xml php7.4-calendar php7.4-ctype php7.4-curl php7.4-dom
 sudo apt-get install php7.4-exif php7.4-fileinfo php7.4-ftp php7.4-gd php7.4-gettext php7.4-iconv php7.4-json php7.4-mbstring
