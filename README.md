@@ -61,6 +61,7 @@ O script necessita de confirmações então acompanhe as saídas no terminal e c
 ## Autores
 
 - [@Marcos R Camargo](https://www.github.com/MarcosRCamargo)
+- [@Thales Assis](https://github.com/ThalesA)
 
 
 ## Referência
