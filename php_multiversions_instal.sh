@@ -68,6 +68,18 @@ sudo apt-get -y install php7.2-exif php7.2-fileinfo php7.2-ftp php7.2-gd php7.2-
 sudo apt-get -y install php7.2-mysqli php7.2-pdo_mysql php7.2-pdo_sqlite php7.2-phar php7.2-posix php7.2-readline php7.2-shmop
 sudo apt-get -y install php7.2-simplexml php7.2-sockets php7.2-sqlite3 php7.2-sysvmsg php7.2-sysvsem php7.2-sysvshm php7.2-tokenizer
 
+#Install PHP 7.1: php7.1-<exension>
+
+echo "Install PHP 7.1:"
+
+sudo apt-get -y install php7.1 php7.1-fpm php7.1-wddx php7.1-xmlreader php7.1-xmlwriter php7.1-xsl php7.1-intl php7.1-soap
+sudo apt-get -y install php7.1-mysql php7.1-mbstring php7.1-xml php7.1-gd php7.1-curl php7.1-phpdbg php7.1-sqlite php7.1-sqlite3
+sudo apt-get -y install php7.1-mysqlnd php7.1-opcache php7.1-pdo php7.1-xml php7.1-calendar php7.1-ctype php7.1-curl php7.1-dom
+sudo apt-get -y install php7.1-exif php7.1-fileinfo php7.1-ftp php7.1-gd php7.1-gettext php7.1-iconv php7.1-json php7.1-mbstring
+sudo apt-get -y install php7.1-mysqli php7.1-pdo_mysql php7.1-pdo_sqlite php7.1-phar php7.1-posix php7.1-readline php7.1-shmop
+sudo apt-get -y install php7.1-simplexml php7.1-sockets php7.1-sqlite3 php7.1-sysvmsg php7.1-sysvsem php7.1-sysvshm php7.1-tokenizer
+
+
 #Install PHP 7.0: php7.2-<exension>
 
 echo "Install PHP 7.0:"
