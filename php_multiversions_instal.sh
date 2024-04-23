@@ -12,6 +12,31 @@ sudo apt update
 
 echo "Instalando Multiplas  Versões PHP"
 
+
+#Install PHP 8.3:
+
+echo "Install PHP 8.3:"
+
+sudo apt-get -y install php8.3 php8.3-fpm php8.3-wddx php8.3-xmlreader php8.3-xmlwriter php8.3-xsl php8.3-intl php8.3-soap
+sudo apt-get -y install php8.3-mysql php8.3-mbstring php8.3-xml php8.3-gd php8.3-curl php8.3-phpdbg php8.3-sqlite php8.3-sqlite3
+sudo apt-get -y install php8.3-mysqlnd php8.3-opcache php8.3-pdo php8.3-xml php8.3-calendar php8.3-ctype php8.3-curl php8.3-dom
+sudo apt-get -y install php8.3-exif php8.3-fileinfo php8.3-ftp php8.3-gd php8.3-gettext php8.3-iconv php8.3-json php8.3-mbstring
+sudo apt-get -y install php8.3-mysqli php8.3-pdo_mysql php8.3-pdo_sqlite php8.3-phar php8.3-posix php8.3-readline php8.3-shmop
+sudo apt-get -y install php8.3-simplexml php8.3-sockets php8.3-sqlite3 php8.3-sysvmsg php8.3-sysvsem php8.3-sysvshm php8.3-tokenizer
+sudo apt-get -y install php8.3sudo update-alternatives --set php /usr/bin/php8.3-intl
+
+#Install PHP 8.2:
+
+echo "Install PHP 8.2:"
+
+sudo apt-get -y install php8.2 php8.2-fpm php8.2-wddx php8.2-xmlreader php8.2-xmlwriter php8.2-xsl php8.2-intl php8.2-soap
+sudo apt-get -y install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-gd php8.2-curl php8.2-phpdbg php8.2-sqlite php8.2-sqlite3
+sudo apt-get -y install php8.2-mysqlnd php8.2-opcache php8.2-pdo php8.2-xml php8.2-calendar php8.2-ctype php8.2-curl php8.2-dom
+sudo apt-get -y install php8.2-exif php8.2-fileinfo php8.2-ftp php8.2-gd php8.2-gettext php8.2-iconv php8.2-json php8.2-mbstring
+sudo apt-get -y install php8.2-mysqli php8.2-pdo_mysql php8.2-pdo_sqlite php8.2-phar php8.2-posix php8.2-readline php8.2-shmop
+sudo apt-get -y install php8.2-simplexml php8.2-sockets php8.2-sqlite3 php8.2-sysvmsg php8.2-sysvsem php8.2-sysvshm php8.2-tokenizer
+sudo apt-get -y install php8.2sudo update-alternatives --set php /usr/bin/php8.2-intl
+
 #Install PHP 8.1:
 
 echo "Install PHP 8.1:"
@@ -22,7 +47,7 @@ sudo apt-get -y install php8.1-mysqlnd php8.1-opcache php8.1-pdo php8.1-xml php8
 sudo apt-get -y install php8.1-exif php8.1-fileinfo php8.1-ftp php8.1-gd php8.1-gettext php8.1-iconv php8.1-json php8.1-mbstring
 sudo apt-get -y install php8.1-mysqli php8.1-pdo_mysql php8.1-pdo_sqlite php8.1-phar php8.1-posix php8.1-readline php8.1-shmop
 sudo apt-get -y install php8.1-simplexml php8.1-sockets php8.1-sqlite3 php8.1-sysvmsg php8.1-sysvsem php8.1-sysvshm php8.1-tokenizer
-sudo apt-get -y install php8.1-intl
+sudo apt-get -y install php8.1sudo update-alternatives --set php /usr/bin/php7.2-intl
 
 #Install PHP 8.0:
 
