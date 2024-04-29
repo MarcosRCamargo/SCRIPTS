@@ -17,25 +17,27 @@ echo "Instalando Multiplas  Versões PHP"
 
 echo "Install PHP 8.3:"
 
+
 sudo apt-get -y install php8.3 php8.3-fpm php8.3-wddx php8.3-xmlreader php8.3-xmlwriter php8.3-xsl php8.3-intl php8.3-soap
 sudo apt-get -y install php8.3-mysql php8.3-mbstring php8.3-xml php8.3-gd php8.3-curl php8.3-phpdbg php8.3-sqlite php8.3-sqlite3
 sudo apt-get -y install php8.3-mysqlnd php8.3-opcache php8.3-pdo php8.3-xml php8.3-calendar php8.3-ctype php8.3-curl php8.3-dom
 sudo apt-get -y install php8.3-exif php8.3-fileinfo php8.3-ftp php8.3-gd php8.3-gettext php8.3-iconv php8.3-json php8.3-mbstring
-sudo apt-get -y install php8.3-mysqli php8.3-pdo_mysql php8.3-pdo_sqlite php8.3-phar php8.3-posix php8.3-readline php8.3-shmop
+sudo apt-get -y install php8.3-mysqli php8.3-pdo_mysql php8.3-pdo_sqlite php8.3-phar php8.3-posix php8.3-readline php8.3-shmop php8.3-zip
 sudo apt-get -y install php8.3-simplexml php8.3-sockets php8.3-sqlite3 php8.3-sysvmsg php8.3-sysvsem php8.3-sysvshm php8.3-tokenizer
-sudo apt-get -y install php8.3sudo update-alternatives --set php /usr/bin/php8.3-intl
+sudo apt-get -y install php8.3
+sudo update-alternatives --set php /usr/bin/php8.3-intl
 
 #Install PHP 8.2:
-
 echo "Install PHP 8.2:"
 
 sudo apt-get -y install php8.2 php8.2-fpm php8.2-wddx php8.2-xmlreader php8.2-xmlwriter php8.2-xsl php8.2-intl php8.2-soap
 sudo apt-get -y install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-gd php8.2-curl php8.2-phpdbg php8.2-sqlite php8.2-sqlite3
 sudo apt-get -y install php8.2-mysqlnd php8.2-opcache php8.2-pdo php8.2-xml php8.2-calendar php8.2-ctype php8.2-curl php8.2-dom
 sudo apt-get -y install php8.2-exif php8.2-fileinfo php8.2-ftp php8.2-gd php8.2-gettext php8.2-iconv php8.2-json php8.2-mbstring
-sudo apt-get -y install php8.2-mysqli php8.2-pdo_mysql php8.2-pdo_sqlite php8.2-phar php8.2-posix php8.2-readline php8.2-shmop
+sudo apt-get -y install php8.2-mysqli php8.2-pdo_mysql php8.2-pdo_sqlite php8.2-phar php8.2-posix php8.2-readline php8.2-shmop php8.2-zip
 sudo apt-get -y install php8.2-simplexml php8.2-sockets php8.2-sqlite3 php8.2-sysvmsg php8.2-sysvsem php8.2-sysvshm php8.2-tokenizer
-sudo apt-get -y install php8.2sudo update-alternatives --set php /usr/bin/php8.2-intl
+sudo apt-get -y install php8.2
+sudo update-alternatives --set php /usr/bin/php8.2-intl
 
 #Install PHP 8.1:
 
@@ -45,7 +47,7 @@ sudo apt-get -y install php8.1 php8.1-fpm php8.1-wddx php8.1-xmlreader php8.1-xm
 sudo apt-get -y install php8.1-mysql php8.1-mbstring php8.1-xml php8.1-gd php8.1-curl php8.1-phpdbg php8.1-sqlite php8.1-sqlite3
 sudo apt-get -y install php8.1-mysqlnd php8.1-opcache php8.1-pdo php8.1-xml php8.1-calendar php8.1-ctype php8.1-curl php8.1-dom
 sudo apt-get -y install php8.1-exif php8.1-fileinfo php8.1-ftp php8.1-gd php8.1-gettext php8.1-iconv php8.1-json php8.1-mbstring
-sudo apt-get -y install php8.1-mysqli php8.1-pdo_mysql php8.1-pdo_sqlite php8.1-phar php8.1-posix php8.1-readline php8.1-shmop
+sudo apt-get -y install php8.1-mysqli php8.1-pdo_mysql php8.1-pdo_sqlite php8.1-phar php8.1-posix php8.1-readline php8.1-shmop php8.1-zip
 sudo apt-get -y install php8.1-simplexml php8.1-sockets php8.1-sqlite3 php8.1-sysvmsg php8.1-sysvsem php8.1-sysvshm php8.1-tokenizer
 sudo apt-get -y install php8.1sudo update-alternatives --set php /usr/bin/php7.2-intl
 
@@ -57,7 +59,7 @@ sudo apt-get -y install php8.0 php8.0-fpm php8.0-wddx php8.0-xmlreader php8.0-xm
 sudo apt-get -y install php8.0-mysql php8.0-mbstring php8.0-xml php8.0-gd php8.0-curl php8.0-phpdbg php8.0-sqlite php8.0-sqlite3
 sudo apt-get -y install php8.0-mysqlnd php8.0-opcache php8.0-pdo php8.0-xml php8.0-calendar php8.0-ctype php8.0-curl php8.0-dom
 sudo apt-get -y install php8.0-exif php8.0-fileinfo php8.0-ftp php8.0-gd php8.0-gettext php8.0-iconv php8.0-json php8.0-mbstring
-sudo apt-get -y install php8.0-mysqli php8.0-pdo_mysql php8.0-pdo_sqlite php8.0-phar php8.0-posix php8.0-readline php8.0-shmop
+sudo apt-get -y install php8.0-mysqli php8.0-pdo_mysql php8.0-pdo_sqlite php8.0-phar php8.0-posix php8.0-readline php8.0-shmop php8.0-zip
 sudo apt-get -y install php8.0-simplexml php8.0-sockets php8.0-sqlite3 php8.0-sysvmsg php8.0-sysvsem php8.0-sysvshm php8.0-tokenizer
 sudo apt-get -y install php8.0-intl
 #Install PHP 7.4:
@@ -68,7 +70,7 @@ sudo apt-get -y install php7.4 php7.4-fpm php7.4-wddx php7.4-xmlreader php7.4-xm
 sudo apt-get -y install php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl php7.4-phpdbg php7.4-sqlite php7.4-sqlite3
 sudo apt-get -y install php7.4-mysqlnd php7.4-opcache php7.4-pdo php7.4-xml php7.4-calendar php7.4-ctype php7.4-curl php7.4-dom
 sudo apt-get -y install php7.4-exif php7.4-fileinfo php7.4-ftp php7.4-gd php7.4-gettext php7.4-iconv php7.4-json php7.4-mbstring
-sudo apt-get -y install php7.4-mysqli php7.4-pdo_mysql php7.4-pdo_sqlite php7.4-phar php7.4-posix php7.4-readline php7.4-shmop
+sudo apt-get -y install php7.4-mysqli php7.4-pdo_mysql php7.4-pdo_sqlite php7.4-phar php7.4-posix php7.4-readline php7.4-shmop php7.4-zip
 sudo apt-get -y install php7.4-simplexml php7.4-sockets php7.4-sqlite3 php7.4-sysvmsg php7.4-sysvsem php7.4-sysvshm php7.4-tokenizer
 sudo apt-get -y install php7.4-intl
 
@@ -80,7 +82,7 @@ sudo apt-get -y install php7.3 php7.3-fpm php7.3-wddx php7.3-xmlreader php7.3-xm
 sudo apt-get -y install php7.3-mysql php7.3-mbstring php7.3-xml php7.3-gd php7.3-curl php7.3-phpdbg php7.3-sqlite php7.3-sqlite3
 sudo apt-get -y install php7.3-mysqlnd php7.3-opcache php7.3-pdo php7.3-xml php7.3-calendar php7.3-ctype php7.3-curl php7.3-dom
 sudo apt-get -y install php7.3-exif php7.3-fileinfo php7.3-ftp php7.3-gd php7.3-gettext php7.3-iconv php7.3-json php7.3-mbstring
-sudo apt-get -y install php7.3-mysqli php7.3-pdo_mysql php7.3-pdo_sqlite php7.3-phar php7.3-posix php7.3-readline php7.3-shmop
+sudo apt-get -y install php7.3-mysqli php7.3-pdo_mysql php7.3-pdo_sqlite php7.3-phar php7.3-posix php7.3-readline php7.3-shmop php7.3-zip
 sudo apt-get -y install php7.3-simplexml php7.3-sockets php7.3-sqlite3 php7.3-sysvmsg php7.3-sysvsem php7.3-sysvshm php7.3-tokenizer
 sudo apt-get -y install ph7.1.3-intl
 
@@ -92,7 +94,7 @@ sudo apt-get -y install php7.2 php7.2-fpm php7.2-wddx php7.2-xmlreader php7.2-xm
 sudo apt-get -y install php7.2-mysql php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl php7.2-phpdbg php7.2-sqlite php7.2-sqlite3
 sudo apt-get -y install php7.2-mysqlnd php7.2-opcache php7.2-pdo php7.2-xml php7.2-calendar php7.2-ctype php7.2-curl php7.2-dom
 sudo apt-get -y install php7.2-exif php7.2-fileinfo php7.2-ftp php7.2-gd php7.2-gettext php7.2-iconv php7.2-json php7.2-mbstring
-sudo apt-get -y install php7.2-mysqli php7.2-pdo_mysql php7.2-pdo_sqlite php7.2-phar php7.2-posix php7.2-readline php7.2-shmop
+sudo apt-get -y install php7.2-mysqli php7.2-pdo_mysql php7.2-pdo_sqlite php7.2-phar php7.2-posix php7.2-readline php7.2-shmop php7.2-zip
 sudo apt-get -y install php7.2-simplexml php7.2-sockets php7.2-sqlite3 php7.2-sysvmsg php7.2-sysvsem php7.2-sysvshm php7.2-tokenizer
 sudo apt-get -y  install ph7.1.3-intl
 
@@ -104,7 +106,7 @@ sudo apt-get -y install ph7.1.3 ph7.1.3-fpm ph7.1.3-wddx ph7.1.3-xmlreader ph7.1
 sudo apt-get -y install ph7.1.3-mysql ph7.1.3-mbstring ph7.1.3-xml ph7.1.3-gd ph7.1.3-curl ph7.1.3-phpdbg ph7.1.3-sqlite ph7.1.3-sqlite3
 sudo apt-get -y install ph7.1.3-mysqlnd ph7.1.3-opcache ph7.1.3-pdo ph7.1.3-xml ph7.1.3-calendar ph7.1.3-ctype ph7.1.3-curl ph7.1.3-dom
 sudo apt-get -y install ph7.1.3-exif ph7.1.3-fileinfo ph7.1.3-ftp ph7.1.3-gd ph7.1.3-gettext ph7.1.3-iconv ph7.1.3-json ph7.1.3-mbstring
-sudo apt-get -y install ph7.1.3-mysqli ph7.1.3-pdo_mysql ph7.1.3-pdo_sqlite ph7.1.3-phar ph7.1.3-posix ph7.1.3-readline ph7.1.3-shmop
+sudo apt-get -y install ph7.1.3-mysqli ph7.1.3-pdo_mysql ph7.1.3-pdo_sqlite ph7.1.3-phar ph7.1.3-posix ph7.1.3-readline ph7.1.3-shmop 
 sudo apt-get -y install ph7.1.3-simplexml ph7.1.3-sockets ph7.1.3-sqlite3 ph7.1.3-sysvmsg ph7.1.3-sysvsem ph7.1.3-sysvshm ph7.1.3-tokenizer
 sudo apt-get -y  install ph7.1.3-intl
 
@@ -117,7 +119,7 @@ sudo apt-get -y install php7.1 php7.1-fpm php7.1-wddx php7.1-xmlreader php7.1-xm
 sudo apt-get -y install php7.1-mysql php7.1-mbstring php7.1-xml php7.1-gd php7.1-curl php7.1-phpdbg php7.1-sqlite php7.1-sqlite3
 sudo apt-get -y install php7.1-mysqlnd php7.1-opcache php7.1-pdo php7.1-xml php7.1-calendar php7.1-ctype php7.1-curl php7.1-dom
 sudo apt-get -y install php7.1-exif php7.1-fileinfo php7.1-ftp php7.1-gd php7.1-gettext php7.1-iconv php7.1-json php7.1-mbstring
-sudo apt-get -y install php7.1-mysqli php7.1-pdo_mysql php7.1-pdo_sqlite php7.1-phar php7.1-posix php7.1-readline php7.1-shmop
+sudo apt-get -y install php7.1-mysqli php7.1-pdo_mysql php7.1-pdo_sqlite php7.1-phar php7.1-posix php7.1-readline php7.1-shmop php7.1-zip
 sudo apt-get -y install php7.1-simplexml php7.1-sockets php7.1-sqlite3 php7.1-sysvmsg php7.1-sysvsem php7.1-sysvshm php7.1-tokenizer
 sudo apt-get -y install php7.1-intl
 
@@ -130,7 +132,7 @@ sudo apt-get -y install php7.0 php7.0-fpm php7.0-wddx php7.0-xmlreader php7.0-xm
 sudo apt-get -y install php7.0-mysql php7.0-mbstring php7.0-xml php7.0-gd php7.0-curl php7.0-phpdbg php7.0-sqlite php7.0-sqlite3
 sudo apt-get -y install php7.0-mysqlnd php7.0-opcache php7.0-pdo php7.0-xml php7.0-calendar php7.0-ctype php7.0-curl php7.0-dom
 sudo apt-get -y install php7.0-exif php7.0-fileinfo php7.0-ftp php7.0-gd php7.0-gettext php7.0-iconv php7.0-json php7.0-mbstring
-sudo apt-get -y install php7.0-mysqli php7.0-pdo_mysql php7.0-pdo_sqlite php7.0-phar php7.0-posix php7.0-readline php7.0-shmop
+sudo apt-get -y install php7.0-mysqli php7.0-pdo_mysql php7.0-pdo_sqlite php7.0-phar php7.0-posix php7.0-readline php7.0-shmop php7.0-zip
 sudo apt-get -y install php7.0-simplexml php7.0-sockets php7.0-sqlite3 php7.0-sysvmsg php7.0-sysvsem php7.0-sysvshm php7.0-tokenizer
 sudo apt-get -y install php7.0-intl
 
@@ -142,7 +144,7 @@ sudo apt-get -y install php5.6 php5.6-fpm php5.6-wddx php5.6-xmlreader php5.6-xm
 sudo apt-get -y install php5.6-mysql php5.6-mbstring php5.6-xml php5.6-gd php5.6-curl php5.6-phpdbg php5.6-sqlite php5.6-sqlite3
 sudo apt-get -y install php5.6-mysqlnd php5.6-opcache php5.6-pdo php5.6-xml php5.6-calendar php5.6-ctype php5.6-curl php5.6-dom
 sudo apt-get -y install php5.6-exif php5.6-fileinfo php5.6-ftp php5.6-gd php5.6-gettext php5.6-iconv php5.6-json php5.6-mbstring
-sudo apt-get -y install php5.6-mysqli php5.6-pdo_mysql php5.6-pdo_sqlite php5.6-phar php5.6-posix php5.6-readline php5.6-shmop
+sudo apt-get -y install php5.6-mysqli php5.6-pdo_mysql php5.6-pdo_sqlite php5.6-phar php5.6-posix php5.6-readline php5.6-shmop php5.6-zip
 sudo apt-get -y install php5.6-simplexml php5.6-sockets php5.6-sqlite3 php5.6-sysvmsg php5.6-sysvsem php5.6-sysvshm php5.6-tokenizer
 sudo apt-get -y install php5.6-intl
 # Lista as alternativas php 
