@@ -84,7 +84,7 @@ sudo apt-get -y install php7.3-mysqlnd php7.3-opcache php7.3-pdo php7.3-xml php7
 sudo apt-get -y install php7.3-exif php7.3-fileinfo php7.3-ftp php7.3-gd php7.3-gettext php7.3-iconv php7.3-json php7.3-mbstring
 sudo apt-get -y install php7.3-mysqli php7.3-pdo_mysql php7.3-pdo_sqlite php7.3-phar php7.3-posix php7.3-readline php7.3-shmop php7.3-zip
 sudo apt-get -y install php7.3-simplexml php7.3-sockets php7.3-sqlite3 php7.3-sysvmsg php7.3-sysvsem php7.3-sysvshm php7.3-tokenizer
-sudo apt-get -y install ph7.1.3-intl
+sudo apt-get -y install php7.1.3-intl
 
 #Install PHP 7.2: php7.2-<exension>
 
@@ -96,19 +96,19 @@ sudo apt-get -y install php7.2-mysqlnd php7.2-opcache php7.2-pdo php7.2-xml php7
 sudo apt-get -y install php7.2-exif php7.2-fileinfo php7.2-ftp php7.2-gd php7.2-gettext php7.2-iconv php7.2-json php7.2-mbstring
 sudo apt-get -y install php7.2-mysqli php7.2-pdo_mysql php7.2-pdo_sqlite php7.2-phar php7.2-posix php7.2-readline php7.2-shmop php7.2-zip
 sudo apt-get -y install php7.2-simplexml php7.2-sockets php7.2-sqlite3 php7.2-sysvmsg php7.2-sysvsem php7.2-sysvshm php7.2-tokenizer
-sudo apt-get -y  install ph7.1.3-intl
+sudo apt-get -y  install php7.1.3-intl
 
 #Install PHP 7.1.3: php7.1.3-<exension>
 
 echo "Install PHP 7.1:"
 
-sudo apt-get -y install ph7.1.3 ph7.1.3-fpm ph7.1.3-wddx ph7.1.3-xmlreader ph7.1.3-xmlwriter ph7.1.3-xsl ph7.1.3-intl ph7.1.3-soap
-sudo apt-get -y install ph7.1.3-mysql ph7.1.3-mbstring ph7.1.3-xml ph7.1.3-gd ph7.1.3-curl ph7.1.3-phpdbg ph7.1.3-sqlite ph7.1.3-sqlite3
-sudo apt-get -y install ph7.1.3-mysqlnd ph7.1.3-opcache ph7.1.3-pdo ph7.1.3-xml ph7.1.3-calendar ph7.1.3-ctype ph7.1.3-curl ph7.1.3-dom
-sudo apt-get -y install ph7.1.3-exif ph7.1.3-fileinfo ph7.1.3-ftp ph7.1.3-gd ph7.1.3-gettext ph7.1.3-iconv ph7.1.3-json ph7.1.3-mbstring
-sudo apt-get -y install ph7.1.3-mysqli ph7.1.3-pdo_mysql ph7.1.3-pdo_sqlite ph7.1.3-phar ph7.1.3-posix ph7.1.3-readline ph7.1.3-shmop 
-sudo apt-get -y install ph7.1.3-simplexml ph7.1.3-sockets ph7.1.3-sqlite3 ph7.1.3-sysvmsg ph7.1.3-sysvsem ph7.1.3-sysvshm ph7.1.3-tokenizer
-sudo apt-get -y  install ph7.1.3-intl
+sudo apt-get -y install php7.1.3 php7.1.3-fpm php7.1.3-wddx php7.1.3-xmlreader php7.1.3-xmlwriter php7.1.3-xsl php7.1.3-intl php7.1.3-soap
+sudo apt-get -y install php7.1.3-mysql php7.1.3-mbstring php7.1.3-xml php7.1.3-gd php7.1.3-curl php7.1.3-phpdbg php7.1.3-sqlite php7.1.3-sqlite3
+sudo apt-get -y install php7.1.3-mysqlnd php7.1.3-opcache php7.1.3-pdo php7.1.3-xml php7.1.3-calendar php7.1.3-ctype php7.1.3-curl php7.1.3-dom
+sudo apt-get -y install php7.1.3-exif php7.1.3-fileinfo php7.1.3-ftp php7.1.3-gd php7.1.3-gettext php7.1.3-iconv php7.1.3-json php7.1.3-mbstring
+sudo apt-get -y install php7.1.3-mysqli php7.1.3-pdo_mysql php7.1.3-pdo_sqlite php7.1.3-phar php7.1.3-posix php7.1.3-readline php7.1.3-shmop 
+sudo apt-get -y install php7.1.3-simplexml php7.1.3-sockets php7.1.3-sqlite3 php7.1.3-sysvmsg php7.1.3-sysvsem php7.1.3-sysvshm php7.1.3-tokenizer
+sudo apt-get -y  install php7.1.3-intl
 
 
 #Install PHP 7.1: php7.1-<exension>7.1.3
