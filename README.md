@@ -16,10 +16,19 @@ Este comando permite que o script seja executado. Após essa etapa basta executa
 ```bash
   ./php_multiversions_instal.sh
 ```
+# Para selecioncar a versão desejada #
 
+```bash
+#sudo update-alternatives --set php /usr/bin/php5.6
+#sudo update-alternatives --set php /usr/bin/php7.0
+#sudo update-alternatives --set php /usr/bin/php7.2
+#sudo update-alternatives --set php /usr/bin/php7.3
+#sudo update-alternatives --set php /usr/bin/php7.4
+#sudo update-alternatives --set php /usr/bin/php8.0
+#sudo update-alternatives --set php /usr/bin/php8.1
 ## Instalação Composer
-
-Execute o comando na pasta onde esta o arquivo baixado.
+```
+Para o composer execute o comando na pasta onde esta o arquivo baixado.
 
 ```bash
   sudo chmod 777 composer.sh
